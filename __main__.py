@@ -6,4 +6,6 @@ def printstuff():
 
 if __name__ == "__main__": 
     print ("Welcome to the __main__ section of the __main__.py file!")
-    printstuff()
+    #printstuff()
+    yourname = input("Please enter your name: ")
+    print("Hello, {0}".format(yourname))
