@@ -11,4 +11,4 @@ if "__main__" in __name__ :
     #printstuff()
     yourname = input("Please enter your name: ")
     print("Hello, {0}".format(yourname))
-    hello("Sending love to hello")
+    hello.hello("Sending love to hello")
