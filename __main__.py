@@ -12,4 +12,3 @@ if "__main__" in __name__ :
     yourname = input("Please enter your name: ")
     print("Hello, {0}".format(yourname))
     hello.hello("Sending love to hello")
-    print(dir())
