@@ -15,3 +15,4 @@ if "__main__" in __name__ :
     print("Hello, {0}".format(yourname))
     hello.hello("Sending love to hello")
     printstuff()
+    print("And that's how it's done!")
