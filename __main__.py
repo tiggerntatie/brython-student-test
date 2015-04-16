@@ -6,6 +6,8 @@ def printstuff():
 
 print("The __name__ is: ", __name__)
 
+# Note the revised method of checking for __main__
+# that is required when using Brython.
 if "__main__" in __name__ : 
     print ("Welcome to the __main__ section of the __main__.py file!")
     #printstuff()
