@@ -15,7 +15,9 @@ if "__main__" in __name__ :
     print("Hello, {0}".format(yourname))
     hello.hello("Sending love to hello")
     printstuff()
-    print("And that's how it's done!")
+    print("Begin testing text file read...")
     f = open("test.txt",'r')
     print(f.read())
     f.close()
+    print("Begin testing binary file read...")
+    
