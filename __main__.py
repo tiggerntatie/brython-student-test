@@ -21,7 +21,9 @@ if "__main__" in __name__ :
     f.close()
     print("Begin testing binary file read...")
     f = open("sun.rays.small.png", 'rb')
-    print(f.read(100))
+    bd = f.read(100)
+    print(type(bd))
+    print(bd)
     f.close() 
     print("Begin testing binary data...")
     bd = b'\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x01\x00\x00\x00\x01\x00\x08\x06\x00\x00\x00\\r\xa8f\x00\x00\x00\tpHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\x01\x00\x9a\x9c\x18\x00\x00\nOiCCPPhotoshop ICC profile\x00\x00x'
