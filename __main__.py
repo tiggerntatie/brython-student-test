@@ -20,4 +20,6 @@ if "__main__" in __name__ :
     print(f.read())
     f.close()
     print("Begin testing binary file read...")
-    
+    f = open("sun.rays.small.png", 'rb')
+    print(f.read())
+    f.close() 
