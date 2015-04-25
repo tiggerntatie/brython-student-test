@@ -17,5 +17,5 @@ if "__main__" in __name__ :
     printstuff()
     print("And that's how it's done!")
     f = open("test.txt",'r')
-    print(f.readline())
+    print(f.read())
     f.close()
