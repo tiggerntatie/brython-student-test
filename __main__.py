@@ -22,7 +22,7 @@ if "__main__" in __name__ :
     print("Begin testing binary file read...")
     f = open("sun.rays.small.png", 'rb')
     bd = f.read(100)
-    print(type(bd))
+    #print(type(bd))   # this has suddenly stopped working
     print(bd)
     f.close() 
     print("Begin testing binary data...")
