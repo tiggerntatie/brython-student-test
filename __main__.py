@@ -13,7 +13,7 @@ if "__main__" in __name__ :
     #printstuff()
     yourname = input("Please enter your name: ")
     print("Hello, {0}".format(yourname))
-    hello.hello("Sending love to hello")
+    hello.hello("Sending hate to hello")
     # printstuff()
     print("Begin testing text file read...")
     f = open("test.txt",'r')
