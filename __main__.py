@@ -4,7 +4,7 @@ def printstuff():
     for x in range(100):
         print("{0} bottles of rootbeer on the wall!".format(x))
 
-print("The __name__ is: ", __name__)
+print("The file's __name__ is: ", __name__)
 
 # Note the revised method of checking for __main__
 # that is required when using Brython.
